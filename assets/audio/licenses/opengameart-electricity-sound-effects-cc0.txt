@@ -1,0 +1,15 @@
+Electricity Sound Effects
+
+Author: BMacZero (Brian MacIntosh)
+Source page: https://opengameart.org/content/electricity-sound-effects-0
+Original file: https://opengameart.org/sites/default/files/spark.wav
+Acquired: 2026-08-10
+
+License: Creative Commons Zero 1.0 Universal (CC0 1.0)
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The source page marks this work as CC0 and says attribution to Brian MacIntosh
+is optional. The sound was recorded from a small Tesla generator.
+
+Bounce Hero usage: Chain Lightning electric crackle SFX.
+Runtime processing: original WAV retained; playback volume/rate configured in code.
