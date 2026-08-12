@@ -1,5 +1,39 @@
 # Bounce Hero Asset Credits
 
+## Project-generated Equipment Wearable Layers (2026-08-11)
+
+| Asset group | Creator / tool | References | License / rights | Runtime use | Status |
+| --- | --- | --- | --- | --- | --- |
+| Golem Hammer, Shadow Dagger, Arcane Focus Staff | Bounce Hero project / OpenAI ImageGen in Codex | Project-owned item icons and Rookie equipment layers | Project-generated; no external runtime asset | Weapon paper-doll layers | approved |
+| Stoneguard Helm, Batwing Hood, Rune Scholar Cap | Bounce Hero project / OpenAI ImageGen in Codex | Project-owned item icons and Rookie character sprites | Project-generated; no external runtime asset | Head paper-doll layers | approved |
+| Ancient Cape | Bounce Hero project / OpenAI ImageGen in Codex | Project-owned item icon and Rookie character sprites | Project-generated; no external runtime asset | Common back paper-doll layer | approved |
+
+Prompt and processing record: `art-source/prompt-records/equipment-wearable-layer-prompts.md`.
+
+## Phase 10 Polish Additions (2026-08-11)
+
+| Asset ID | Category | Runtime path | Source | License / terms | Status |
+| --- | --- | --- | --- | --- | --- |
+| `phase-10-item-icon-pixel-set` | UI / Item icons | `public/assets/ui/item-icons/` | OpenAI ImageGen, project-specific generation | Applicable OpenAI service terms | active |
+| `phase-10-procedural-polish-sfx` | UI / Loot / Boss SFX | `public/assets/audio/sfx/ui/`, `loot/`, `boss/` | Project-authored procedural WAV generation | Project source terms | active |
+
+### AI Asset: `phase-10-item-icon-pixel-set`
+
+- Source/master path: `art-source/ui/item-icons/phase-10-item-icon-sheet-*.png`
+- Prompt record: `art-source/prompt-records/phase-10-item-icon-prompts.md`
+- Input reference: project-generated Phase 11-E skill icon sheet only
+- Processing: chroma removal, connected-component crop, 128×128 transparent PNG normalization
+- Watermark/signature check: Passed
+- Runtime mapping: `ITEM_ASSET_MAP.md`
+
+### Project Audio: `phase-10-procedural-polish-sfx`
+
+- Generator: `scripts/generate_polish_sfx.py`
+- Files: 19 original WAV cues for tab/back/equip/craft/error, loot tiers, boss hit types, charge/summon, phase transitions, immunity, and projectile impact
+- External audio or samples: None
+- Attribution requirement: None
+- Notes: Existing Kenney/OpenGameArt credits remain unchanged; these new cues are synthesized from code and do not embed external recordings.
+
 ## 1. 목적
 
 이 문서는 Bounce Hero에서 사용하거나 검토한 모든 외부/AI 생성 Image, Font, UI, VFX, Music, SFX, Reference의 출처와 License를 기록한다.
@@ -294,3 +328,38 @@ Attribution이 필요한 에셋이 추가되면 게임 내 Credits, README 또�
 - [ ] 최종 Reviewer와 승인 상태 기록
 
 권리가 `Unclear`인 에셋은 승인하지 않는다.
+
+---
+
+## Stage 2 — Moonlit Mushroom Forest
+
+### Visual Assets
+
+- Assets: Mini Mushroom, Hopper Mushroom, Spore Shooter, Thorn Sprout, Mushroom King, Spore Projectile, Moonlit Mushroom Forest, Royal Spore Grove
+- Runtime paths: `public/assets/enemies/mushroom/`, `public/assets/bosses/mushroom-king/`, `public/assets/vfx/spore-projectile.png`, `public/assets/backgrounds/mushroom-forest/`, `public/assets/backgrounds/boss/bg-royal-spore-grove.png`
+- Source paths: `art-source/stage-02/`
+- Creator: OpenAI ImageGen, directed and post-processed for Bounce Hero
+- Prompt record: `art-source/prompt-records/stage-02-moonlit-mushroom-forest-prompts.md`
+- External source URL: none
+- License/rights note: project-specific generated assets; no external commercial game artwork is included in runtime files
+- Post-processing: `scripts/process_stage2_assets.py`
+- Status: active
+
+### Equipment / Material Icons
+
+- Assets: Glowing Spore, Royal Spore Core, Forest Blade, Mushroom Cap, Mycelium Armor, Spore Cloak
+- Runtime paths: `public/assets/ui/items/` and `public/assets/equipment/`
+- Creator: project procedural drawing/export script
+- External source URL: none
+- License: original project asset
+- Status: active placeholder, replaceable through the equipment visual map
+
+### Stage 2 SFX
+
+- Files: `spore-shot.wav`, `thorn-burst.wav`, `mushroom-bounce.wav`, `mushroom-land.wav`, `mushroom-spore-shot.wav`, `mushroom-spore-burst.wav`, `mushroom-summon.wav`, `mushroom-cap-guard.wav`, `mushroom-weak-hit.wav`
+- Runtime path: `public/assets/audio/sfx/stage-02/`
+- Creator: project procedural synthesis
+- Generation script: `scripts/generate_stage2_sfx.py`
+- External source URL: none
+- License: original project asset
+- Status: active

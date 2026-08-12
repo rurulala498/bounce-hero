@@ -8,6 +8,14 @@
 
 PC Chrome과 16:9 화면을 우선 지원합니다.
 
+## Current Content
+
+- Chapter 1 — Awakening Ruins / STONE GOLEM
+- Chapter 2 — Moonlit Mushroom Forest / MUSHROOM KING
+- Knight, Rogue, Mage Hero 성장 및 Class별 Run Skill Build
+- Hero별 Inventory, Equipment, Crafting, Chapter Reward
+- Chapter 2 신규 적: Mini Mushroom, Hopper Mushroom, Spore Shooter, Thorn Sprout
+
 ## Controls
 
 | 입력 | 동작 |

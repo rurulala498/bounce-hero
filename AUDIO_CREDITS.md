@@ -1,5 +1,14 @@
 # Bounce Hero Audio Credits
 
+## Phase 10 Project-Authored Polish SFX
+
+- 제작일: 2026-08-11
+- 생성 방식: `scripts/generate_polish_sfx.py`로 파형을 직접 합성한 프로젝트 자체 제작 WAV
+- 외부 샘플/녹음 사용: 없음
+- 대상: UI 탭/뒤로/장착/해제/제작/오류, Gold/Material/Rare/Equipment Loot, Boss Head/Weak Point/Dive Hit, Charge/Summon, Phase 2/3, Immune, Projectile Impact
+- Runtime: `public/assets/audio/sfx/ui/`, `public/assets/audio/sfx/loot/`, `public/assets/audio/sfx/boss/`
+- License: Project source terms; 별도 외부 Attribution 불필요
+
 ## 사용 정책
 
 - 취득일: 2026-08-10
