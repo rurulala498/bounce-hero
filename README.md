@@ -22,11 +22,12 @@ PC Chrome과 16:9 화면을 우선 지원합니다.
 | --- | --- |
 | `←` / `→` | 좌우 이동 |
 | `↑` | 체공당 1회 Air Jump |
-| `←←` / `→→` | Double Tap Dash |
+| `Shift` 또는 `←←` / `→→` | Dash (Blink 장착 시 조건에 따라 Blink) |
 | `Space` | 공중 Dive |
-| `Q W E R` | Active Skill Slot 1~4 |
-| `A S D F` | Active Skill Slot 5~8 |
+| `Q` | 직업 Signature Active |
 | `ESC` | Pause |
+
+게임패드: 왼쪽 스틱/D-pad 이동, A 공중 점프, B Dive, RB/R1 Dash, X Signature, Start Pause. 메뉴는 A 확인과 B 뒤로를 지원합니다.
 
 ## Repository Policy
 
